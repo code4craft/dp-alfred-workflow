@@ -10,10 +10,10 @@ Open Project
 
 安装后，在`script-filter`中，设置"WORKPATH=你常用的目录"。
 
-设置Shell Preference为“当Shell完全退出后关闭”。
+修改
 
-![shell preference][2]
-
+	echo "<item valid=\"yes\" arg=\"/usr/local/bin/idea ${WORKPATH}/${f}\">";
+	
+为你常用的程序。
 
   [1]: http://static.oschina.net/uploads/space/2014/0328/065846_88r3_190591.png
-  [2]: http://static.oschina.net/uploads/space/2014/0328/065952_hBEY_190591.png
